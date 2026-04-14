@@ -77,41 +77,25 @@ Forecast vs actual comparison
 <img width="1077" height="400" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/b16c0bb7-77c2-440b-affc-9b80ed10719c" />
 
 ## 🏗️ Project Architecture
-
+```
 Raw Data
-
    ↓
-
 Data Cleaning & Preprocessing
-
    ↓
-
 Exploratory Data Analysis (EDA)
-
    ↓
-
 Feature Engineering
-
    ↓
-
 Machine Learning Forecasting Model
-
    ↓
-
 Demand Prediction Output
-
    ↓
-
 Inventory Optimization Engine
-
    ↓
-
 Business Recommendations (ROP, EOQ, Safety Stock)
-
    ↓
-
 Visual Reports & Insights Dashboard
-
+```
 ## 📁 Folder Structure
 
 <img width="847" height="392" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/d5390e02-455c-4f5a-bd10-05583a357f5f" />
@@ -119,12 +103,17 @@ Visual Reports & Insights Dashboard
 
 ## 🔥 Key Business Formulas Implemented
 ### 📍 Safety Stock
+```
 Safety Stock = Z × σ × √Lead Time
+```
 ### 📍 Reorder Point (ROP)
+```
 ROP = Demand during Lead Time + Safety Stock
+```
 ### 📍 EOQ (Economic Order Quantity)
+```
 EOQ = √((2 × Demand × Ordering Cost) / Holding Cost)
-
+```
 ## 📊 Key Insights Generated
 
 ✔ High-demand product identification
@@ -173,19 +162,23 @@ Recommended order quantity
 ## 🚀 How to Run This Project
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/nsaikushal/Retail-Sales-Forecasting-Inventory-Optimization-System.git
+git clone
+
+https://github.com/nsaikushal/Retail-Sales-Forecasting-Inventory-Optimization-System.git
 
 ### 2️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Run Notebook
 
+```bash 
 jupyter notebook
-
+```
 ### Open:
 
-notebooks/Retail_Sales_Forecasting.ipynb
+[open Notebook](notebooks/Retail_Sales_Forecasting.ipynb)
 
 ## 💡 Real-World Impact
 
@@ -233,6 +226,8 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 nsaikushal
-saikushaln0509@gmal.com
 
-📊 Aspiring Data Scientist | ML Enthusiast
+email - saikushaln0509@gmal.com
+
+github - https://github.com/nsaikushal
+
